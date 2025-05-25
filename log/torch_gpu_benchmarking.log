@@ -1,0 +1,507 @@
+2025-05-25 14:37:42,943 :: INFO :: __main__ :: [MainProcess|MainThread] :: ========= device info. ==========
+2025-05-25 14:37:43,061 :: INFO :: __main__ :: [MainProcess|MainThread] :: cuda available : True
+2025-05-25 14:37:43,081 :: INFO :: __main__ :: [MainProcess|MainThread] :: NVIDIA GeForce RTX 2050
+2025-05-25 14:37:44,250 :: INFO :: __main__ :: [MainProcess|MainThread] :: benchmark logging start.
+2025-05-25 14:37:44,250 :: INFO :: __main__ :: [MainProcess|MainThread] :: GPU Benchmark log will be saved to: /home/wd/Documents/work_stuff/BENCHMARK_TOOLS/gpu_usage_log_resnet.txt
+2025-05-25 14:37:44,251 :: INFO :: __main__ :: [MainProcess|MainThread] :: Warm up starts
+2025-05-25 14:41:52,341 :: INFO :: __main__ :: [MainProcess|MainThread] :: ========= device info. ==========
+2025-05-25 14:41:52,438 :: INFO :: __main__ :: [MainProcess|MainThread] :: cuda available : True
+2025-05-25 14:41:52,458 :: INFO :: __main__ :: [MainProcess|MainThread] :: NVIDIA GeForce RTX 2050
+2025-05-25 14:41:53,617 :: INFO :: __main__ :: [MainProcess|MainThread] :: benchmark logging start.
+2025-05-25 14:41:53,617 :: INFO :: __main__ :: [MainProcess|MainThread] :: GPU Benchmark log will be saved to: /home/wd/Documents/work_stuff/BENCHMARK_TOOLS/gpu_usage_log_resnet.txt
+2025-05-25 14:41:53,618 :: INFO :: __main__ :: [MainProcess|MainThread] :: Warm up starts
+2025-05-25 14:41:53,834 :: ERROR :: __main__ :: [MainProcess|MainThread] :: ********* warm up could not be completed due to below error.
+2025-05-25 14:41:53,834 :: ERROR :: __main__ :: [MainProcess|MainThread] :: CUDA out of memory. Tried to allocate 2.00 GiB. GPU 0 has a total capacity of 3.69 GiB of which 1.15 GiB is free. Including non-PyTorch memory, this process has 2.52 GiB memory in use. Of the allocated memory 2.42 GiB is allocated by PyTorch, and 19.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-05-25 14:44:49,655 :: INFO :: __main__ :: [MainProcess|MainThread] :: 
+
+========= device info. ==========
+2025-05-25 14:44:49,750 :: INFO :: __main__ :: [MainProcess|MainThread] :: cuda available : True
+2025-05-25 14:44:49,770 :: INFO :: __main__ :: [MainProcess|MainThread] :: NVIDIA GeForce RTX 2050
+2025-05-25 14:44:50,230 :: INFO :: __main__ :: [MainProcess|MainThread] :: benchmark logging start.
+2025-05-25 14:44:50,230 :: INFO :: __main__ :: [MainProcess|MainThread] :: GPU Benchmark log will be saved to: /home/wd/Documents/work_stuff/BENCHMARK_TOOLS/gpu_usage_log_resnet.txt
+2025-05-25 14:44:50,231 :: INFO :: __main__ :: [MainProcess|MainThread] :: Warm up starts
+2025-05-25 14:44:52,290 :: INFO :: __main__ :: [MainProcess|MainThread] :: Memory usage after warm-up:
+2025-05-25 14:44:52,292 :: INFO :: __main__ :: [MainProcess|MainThread] :: Benchmarking starts
+2025-05-25 14:45:03,665 :: INFO :: __main__ :: [MainProcess|MainThread] :: benchmark logging stops.
+2025-05-25 14:45:03,665 :: INFO :: __main__ :: [MainProcess|MainThread] :: 
+Benchmark completed!
+2025-05-25 14:45:03,665 :: INFO :: __main__ :: [MainProcess|MainThread] :: Time taken: 11.04 seconds
+2025-05-25 14:45:03,665 :: INFO :: __main__ :: [MainProcess|MainThread] :: Throughput: 231.82 images/second
+2025-05-25 14:45:03,665 :: INFO :: __main__ :: [MainProcess|MainThread] :: GPU Benchmark log saved to: /home/wd/Documents/work_stuff/BENCHMARK_TOOLS/gpu_usage_log_resnet.txt
+2025-05-25 14:46:29,013 :: INFO :: __main__ :: [MainProcess|MainThread] :: 
+
+========= device info. ==========
+2025-05-25 14:46:29,123 :: INFO :: __main__ :: [MainProcess|MainThread] :: cuda available : True
+2025-05-25 14:46:29,143 :: INFO :: __main__ :: [MainProcess|MainThread] :: NVIDIA GeForce RTX 2050
+2025-05-25 14:46:29,606 :: INFO :: __main__ :: [MainProcess|MainThread] :: benchmark logging start.
+2025-05-25 14:46:29,607 :: INFO :: __main__ :: [MainProcess|MainThread] :: GPU Benchmark log will be saved to: /home/wd/Documents/work_stuff/BENCHMARK_TOOLS/gpu_usage_log_resnet.txt
+2025-05-25 14:46:29,607 :: INFO :: __main__ :: [MainProcess|MainThread] :: Warm up starts
+2025-05-25 14:46:31,663 :: INFO :: __main__ :: [MainProcess|MainThread] :: Memory usage after warm-up:
+2025-05-25 14:46:31,663 :: INFO :: __main__ :: [MainProcess|MainThread] :: 185.07177734375, MB allocated
+2025-05-25 14:46:31,664 :: INFO :: __main__ :: [MainProcess|MainThread] :: 3088.0, MB reserved
+2025-05-25 14:46:31,664 :: INFO :: __main__ :: [MainProcess|MainThread] :: Benchmarking starts
+2025-05-25 14:46:43,055 :: INFO :: __main__ :: [MainProcess|MainThread] :: benchmark logging stops.
+2025-05-25 14:46:43,056 :: INFO :: __main__ :: [MainProcess|MainThread] :: 
+Benchmark completed!
+2025-05-25 14:46:43,056 :: INFO :: __main__ :: [MainProcess|MainThread] :: Time taken: 11.04 seconds
+2025-05-25 14:46:43,056 :: INFO :: __main__ :: [MainProcess|MainThread] :: Throughput: 231.98 images/second
+2025-05-25 14:46:43,057 :: INFO :: __main__ :: [MainProcess|MainThread] :: GPU Benchmark log saved to: /home/wd/Documents/work_stuff/BENCHMARK_TOOLS/gpu_usage_log_resnet.txt
+2025-05-25 14:52:36,041 :: INFO :: __main__ :: [MainProcess|MainThread] :: 
+
+========= device info. ==========
+2025-05-25 14:52:36,136 :: INFO :: __main__ :: [MainProcess|MainThread] :: cuda available : True
+2025-05-25 14:52:36,157 :: INFO :: __main__ :: [MainProcess|MainThread] :: NVIDIA GeForce RTX 2050
+2025-05-25 14:52:36,628 :: INFO :: __main__ :: [MainProcess|MainThread] :: benchmark logging start.
+2025-05-25 14:52:36,628 :: INFO :: __main__ :: [MainProcess|MainThread] :: GPU Benchmark log will be saved to: /home/wd/Documents/work_stuff/BENCHMARK_TOOLS/gpu_usage_log_resnet.txt
+2025-05-25 14:52:36,628 :: INFO :: __main__ :: [MainProcess|MainThread] :: Warm up starts
+2025-05-25 14:52:38,693 :: INFO :: __main__ :: [MainProcess|MainThread] :: Memory usage after warm-up:
+2025-05-25 14:52:38,693 :: INFO :: __main__ :: [MainProcess|MainThread] :: 185.07177734375, MB allocated
+2025-05-25 14:52:38,693 :: INFO :: __main__ :: [MainProcess|MainThread] :: 3088.0, MB reserved
+2025-05-25 14:52:38,693 :: INFO :: __main__ :: [MainProcess|MainThread] :: Benchmarking starts
+2025-05-25 14:52:49,747 :: INFO :: __main__ :: [MainProcess|MainThread] :: Memory usage after complete benchmarking:
+2025-05-25 14:52:49,748 :: INFO :: __main__ :: [MainProcess|MainThread] :: 185.07 MB allocated
+2025-05-25 14:52:49,748 :: INFO :: __main__ :: [MainProcess|MainThread] :: 3088.00 MB reserved
+2025-05-25 14:52:50,079 :: INFO :: __main__ :: [MainProcess|MainThread] :: benchmark logging stops.
+2025-05-25 14:52:50,079 :: INFO :: __main__ :: [MainProcess|MainThread] :: 
+Benchmark completed!
+2025-05-25 14:52:50,080 :: INFO :: __main__ :: [MainProcess|MainThread] :: Time taken: 11.05 seconds
+2025-05-25 14:52:50,080 :: INFO :: __main__ :: [MainProcess|MainThread] :: Throughput: 231.60 images/second
+2025-05-25 14:52:50,080 :: INFO :: __main__ :: [MainProcess|MainThread] :: GPU Benchmark log saved to: /home/wd/Documents/work_stuff/BENCHMARK_TOOLS/gpu_usage_log_resnet.txt
+2025-05-25 14:56:08,122 :: INFO :: __main__ :: [MainProcess|MainThread] :: 
+
+========= device info. ==========
+2025-05-25 14:56:08,217 :: INFO :: __main__ :: [MainProcess|MainThread] :: cuda available : True
+2025-05-25 14:56:08,237 :: INFO :: __main__ :: [MainProcess|MainThread] :: NVIDIA GeForce RTX 2050
+2025-05-25 14:56:08,906 :: INFO :: __main__ :: [MainProcess|MainThread] :: benchmark logging start.
+2025-05-25 14:56:08,906 :: INFO :: __main__ :: [MainProcess|MainThread] :: GPU Benchmark log will be saved to: /home/wd/Documents/work_stuff/BENCHMARK_TOOLS/gpu_usage_log_resnet.txt
+2025-05-25 14:56:08,907 :: INFO :: __main__ :: [MainProcess|MainThread] :: Warm up starts
+2025-05-25 14:56:09,267 :: ERROR :: __main__ :: [MainProcess|MainThread] :: ********* warm up could not be completed due to below error.
+2025-05-25 14:56:09,267 :: ERROR :: __main__ :: [MainProcess|MainThread] :: CUDA out of memory. Tried to allocate 392.00 MiB. GPU 0 has a total capacity of 3.69 GiB of which 51.31 MiB is free. Including non-PyTorch memory, this process has 3.62 GiB memory in use. Of the allocated memory 3.52 GiB is allocated by PyTorch, and 22.26 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-05-25 15:01:02,623 :: INFO :: __main__ :: [MainProcess|MainThread] :: 
+
+========= device info. ==========
+2025-05-25 15:01:02,719 :: INFO :: __main__ :: [MainProcess|MainThread] :: cuda available : True
+2025-05-25 15:01:02,740 :: INFO :: __main__ :: [MainProcess|MainThread] :: NVIDIA GeForce RTX 2050
+2025-05-25 15:01:03,335 :: INFO :: __main__ :: [MainProcess|MainThread] :: benchmark logging start.
+2025-05-25 15:01:03,336 :: INFO :: __main__ :: [MainProcess|MainThread] :: GPU Benchmark log will be saved to: /home/wd/Documents/work_stuff/BENCHMARK_TOOLS/gpu_usage_log_resnet.txt
+2025-05-25 15:01:03,336 :: INFO :: __main__ :: [MainProcess|MainThread] :: Warm up starts
+2025-05-25 15:01:03,755 :: ERROR :: __main__ :: [MainProcess|MainThread] :: ********* warm up could not be completed due to below error.
+2025-05-25 15:01:03,756 :: ERROR :: __main__ :: [MainProcess|MainThread] :: CUDA out of memory. Tried to allocate 98.00 MiB. GPU 0 has a total capacity of 3.69 GiB of which 97.31 MiB is free. Including non-PyTorch memory, this process has 3.57 GiB memory in use. Of the allocated memory 3.48 GiB is allocated by PyTorch, and 13.49 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-05-25 15:01:27,340 :: INFO :: __main__ :: [MainProcess|MainThread] :: 
+
+========= device info. ==========
+2025-05-25 15:01:27,435 :: INFO :: __main__ :: [MainProcess|MainThread] :: cuda available : True
+2025-05-25 15:01:27,456 :: INFO :: __main__ :: [MainProcess|MainThread] :: NVIDIA GeForce RTX 2050
+2025-05-25 15:01:28,050 :: INFO :: __main__ :: [MainProcess|MainThread] :: benchmark logging start.
+2025-05-25 15:01:28,050 :: INFO :: __main__ :: [MainProcess|MainThread] :: GPU Benchmark log will be saved to: /home/wd/Documents/work_stuff/BENCHMARK_TOOLS/gpu_usage_log_resnet.txt
+2025-05-25 15:01:28,050 :: INFO :: __main__ :: [MainProcess|MainThread] :: Warm up starts
+2025-05-25 15:01:28,470 :: ERROR :: __main__ :: [MainProcess|MainThread] :: ********* warm up could not be completed due to below error.
+2025-05-25 15:01:28,470 :: ERROR :: __main__ :: [MainProcess|MainThread] :: CUDA out of memory. Tried to allocate 98.00 MiB. GPU 0 has a total capacity of 3.69 GiB of which 97.31 MiB is free. Including non-PyTorch memory, this process has 3.57 GiB memory in use. Of the allocated memory 3.48 GiB is allocated by PyTorch, and 13.49 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-05-25 15:02:14,108 :: INFO :: __main__ :: [MainProcess|MainThread] :: 
+
+========= device info. ==========
+2025-05-25 15:02:14,204 :: INFO :: __main__ :: [MainProcess|MainThread] :: cuda available : True
+2025-05-25 15:02:14,225 :: INFO :: __main__ :: [MainProcess|MainThread] :: NVIDIA GeForce RTX 2050
+2025-05-25 15:02:14,771 :: INFO :: __main__ :: [MainProcess|MainThread] :: benchmark logging start.
+2025-05-25 15:02:14,771 :: INFO :: __main__ :: [MainProcess|MainThread] :: GPU Benchmark log will be saved to: /home/wd/Documents/work_stuff/BENCHMARK_TOOLS/gpu_usage_log_resnet.txt
+2025-05-25 15:02:14,772 :: INFO :: __main__ :: [MainProcess|MainThread] :: Warm up starts
+2025-05-25 15:02:16,679 :: INFO :: __main__ :: [MainProcess|MainThread] :: Memory usage after warm-up:
+2025-05-25 15:02:16,680 :: INFO :: __main__ :: [MainProcess|MainThread] :: 229.97216796875, MB allocated
+2025-05-25 15:02:16,681 :: INFO :: __main__ :: [MainProcess|MainThread] :: 2856.0, MB reserved
+2025-05-25 15:02:16,681 :: INFO :: __main__ :: [MainProcess|MainThread] :: Benchmarking starts
+2025-05-25 15:02:25,467 :: INFO :: __main__ :: [MainProcess|MainThread] :: Memory usage after complete benchmarking:
+2025-05-25 15:02:25,468 :: INFO :: __main__ :: [MainProcess|MainThread] :: 229.97 MB allocated
+2025-05-25 15:02:25,468 :: INFO :: __main__ :: [MainProcess|MainThread] :: 2856.00 MB reserved
+2025-05-25 15:02:26,158 :: INFO :: __main__ :: [MainProcess|MainThread] :: benchmark logging stops.
+2025-05-25 15:02:26,158 :: INFO :: __main__ :: [MainProcess|MainThread] :: 
+Benchmark completed!
+2025-05-25 15:02:26,159 :: INFO :: __main__ :: [MainProcess|MainThread] :: Time taken: 8.79 seconds
+2025-05-25 15:02:26,159 :: INFO :: __main__ :: [MainProcess|MainThread] :: Throughput: 72.84 images/second
+2025-05-25 15:02:26,159 :: INFO :: __main__ :: [MainProcess|MainThread] :: GPU Benchmark log saved to: /home/wd/Documents/work_stuff/BENCHMARK_TOOLS/gpu_usage_log_resnet.txt
+2025-05-25 15:04:52,688 :: INFO :: __main__ :: [MainProcess|MainThread] :: 
+
+========= device info. ==========
+2025-05-25 15:04:52,784 :: INFO :: __main__ :: [MainProcess|MainThread] :: cuda available : True
+2025-05-25 15:04:52,805 :: INFO :: __main__ :: [MainProcess|MainThread] :: NVIDIA GeForce RTX 2050
+2025-05-25 15:04:53,352 :: INFO :: __main__ :: [MainProcess|MainThread] :: benchmark logging start.
+2025-05-25 15:04:53,352 :: INFO :: __main__ :: [MainProcess|MainThread] :: GPU Benchmark log will be saved to: /home/wd/Documents/work_stuff/BENCHMARK_TOOLS/gpu_usage_log_resnet.txt
+2025-05-25 15:04:53,353 :: INFO :: __main__ :: [MainProcess|MainThread] :: MODEL : ResNet(
+  (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+  (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu): ReLU(inplace=True)
+  (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+  (layer1): Sequential(
+    (0): Bottleneck(
+      (conv1): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (downsample): Sequential(
+        (0): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): Bottleneck(
+      (conv1): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+    (2): Bottleneck(
+      (conv1): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+  )
+  (layer2): Sequential(
+    (0): Bottleneck(
+      (conv1): Conv2d(256, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (downsample): Sequential(
+        (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): Bottleneck(
+      (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+    (2): Bottleneck(
+      (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+    (3): Bottleneck(
+      (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+  )
+  (layer3): Sequential(
+    (0): Bottleneck(
+      (conv1): Conv2d(512, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (downsample): Sequential(
+        (0): Conv2d(512, 1024, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): Bottleneck(
+      (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+    (2): Bottleneck(
+      (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+    (3): Bottleneck(
+      (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+    (4): Bottleneck(
+      (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+    (5): Bottleneck(
+      (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+  )
+  (layer4): Sequential(
+    (0): Bottleneck(
+      (conv1): Conv2d(1024, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (downsample): Sequential(
+        (0): Conv2d(1024, 2048, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): Bottleneck(
+      (conv1): Conv2d(2048, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+    (2): Bottleneck(
+      (conv1): Conv2d(2048, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+  )
+  (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+  (fc): Linear(in_features=2048, out_features=1000, bias=True)
+)
+2025-05-25 15:04:53,353 :: INFO :: __main__ :: [MainProcess|MainThread] :: RESOLUTION : 224
+2025-05-25 15:04:53,353 :: INFO :: __main__ :: [MainProcess|MainThread] :: BATCH SIZE : 32
+2025-05-25 15:04:53,354 :: INFO :: __main__ :: [MainProcess|MainThread] :: Warm up starts
+2025-05-25 15:04:55,261 :: INFO :: __main__ :: [MainProcess|MainThread] :: Memory usage after warm-up:
+2025-05-25 15:04:55,262 :: INFO :: __main__ :: [MainProcess|MainThread] :: 229.97216796875, MB allocated
+2025-05-25 15:04:55,262 :: INFO :: __main__ :: [MainProcess|MainThread] :: 2856.0, MB reserved
+2025-05-25 15:04:55,262 :: INFO :: __main__ :: [MainProcess|MainThread] :: Benchmarking starts
+2025-05-25 15:05:04,044 :: INFO :: __main__ :: [MainProcess|MainThread] :: Memory usage after complete benchmarking:
+2025-05-25 15:05:04,044 :: INFO :: __main__ :: [MainProcess|MainThread] :: 229.97 MB allocated
+2025-05-25 15:05:04,045 :: INFO :: __main__ :: [MainProcess|MainThread] :: 2856.00 MB reserved
+2025-05-25 15:05:04,722 :: INFO :: __main__ :: [MainProcess|MainThread] :: benchmark logging stops.
+2025-05-25 15:05:04,722 :: INFO :: __main__ :: [MainProcess|MainThread] :: 
+Benchmark completed!
+2025-05-25 15:05:04,723 :: INFO :: __main__ :: [MainProcess|MainThread] :: Time taken: 8.78 seconds
+2025-05-25 15:05:04,723 :: INFO :: __main__ :: [MainProcess|MainThread] :: Throughput: 72.88 images/second
+2025-05-25 15:05:04,723 :: INFO :: __main__ :: [MainProcess|MainThread] :: GPU Benchmark log saved to: /home/wd/Documents/work_stuff/BENCHMARK_TOOLS/gpu_usage_log_resnet.txt
+2025-05-25 15:06:32,513 :: INFO :: __main__ :: [MainProcess|MainThread] :: 
+
+========= device info. ==========
+2025-05-25 15:06:32,614 :: INFO :: __main__ :: [MainProcess|MainThread] :: cuda available : True
+2025-05-25 15:06:32,635 :: INFO :: __main__ :: [MainProcess|MainThread] :: NVIDIA GeForce RTX 2050
+2025-05-25 15:06:33,223 :: INFO :: __main__ :: [MainProcess|MainThread] :: benchmark logging start.
+2025-05-25 15:06:33,224 :: INFO :: __main__ :: [MainProcess|MainThread] :: GPU Benchmark log will be saved to: /home/wd/Documents/work_stuff/BENCHMARK_TOOLS/gpu_usage_log_resnet.txt
+2025-05-25 15:06:33,225 :: INFO :: __main__ :: [MainProcess|MainThread] :: MODEL : ResNet(
+  (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+  (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu): ReLU(inplace=True)
+  (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+  (layer1): Sequential(
+    (0): Bottleneck(
+      (conv1): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (downsample): Sequential(
+        (0): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): Bottleneck(
+      (conv1): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+    (2): Bottleneck(
+      (conv1): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+  )
+  (layer2): Sequential(
+    (0): Bottleneck(
+      (conv1): Conv2d(256, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (downsample): Sequential(
+        (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): Bottleneck(
+      (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+    (2): Bottleneck(
+      (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+    (3): Bottleneck(
+      (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+  )
+  (layer3): Sequential(
+    (0): Bottleneck(
+      (conv1): Conv2d(512, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (downsample): Sequential(
+        (0): Conv2d(512, 1024, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): Bottleneck(
+      (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+    (2): Bottleneck(
+      (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+    (3): Bottleneck(
+      (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+    (4): Bottleneck(
+      (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+    (5): Bottleneck(
+      (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+  )
+  (layer4): Sequential(
+    (0): Bottleneck(
+      (conv1): Conv2d(1024, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (downsample): Sequential(
+        (0): Conv2d(1024, 2048, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): Bottleneck(
+      (conv1): Conv2d(2048, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+    (2): Bottleneck(
+      (conv1): Conv2d(2048, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv3): Conv2d(512, 2048, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn3): BatchNorm2d(2048, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+    )
+  )
+  (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+  (fc): Linear(in_features=2048, out_features=1000, bias=True)
+)
+2025-05-25 15:06:33,225 :: INFO :: __main__ :: [MainProcess|MainThread] :: RESOLUTION : 224
+2025-05-25 15:06:33,225 :: INFO :: __main__ :: [MainProcess|MainThread] :: BATCH SIZE : 64
+2025-05-25 15:06:33,225 :: INFO :: __main__ :: [MainProcess|MainThread] :: Warm up starts
+2025-05-25 15:06:33,648 :: ERROR :: __main__ :: [MainProcess|MainThread] :: ********* warm up could not be completed due to below error.
+2025-05-25 15:06:33,648 :: ERROR :: __main__ :: [MainProcess|MainThread] :: CUDA out of memory. Tried to allocate 98.00 MiB. GPU 0 has a total capacity of 3.69 GiB of which 97.31 MiB is free. Including non-PyTorch memory, this process has 3.57 GiB memory in use. Of the allocated memory 3.48 GiB is allocated by PyTorch, and 13.49 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
